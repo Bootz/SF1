@@ -1,0 +1,16 @@
+# use glob syntax
+syntax: glob
+
+build/
+*.orig
+*.rej
+*.kdev*
+*.bak
+*.patch
+*.diff
+*~
+.git/
+*.kdev*
+
+# use regexp syntax.
+syntax: regexp
